@@ -1,0 +1,9 @@
+<div class="sciFi-container">
+    <h2>{{ sciFi.title }}</h2>
+    <div class="sciFi-gallery">
+      <div *ngFor="let img of sciFi.imgGallery">
+        <img src="{{ img.src }}" alt="{{ img.alt }}" />
+      </div>
+    </div>
+  </div>
+  
